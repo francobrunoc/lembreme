@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-lembremeweb-dev-113716-authRole",
+      "UnauthRoleArn": "arn:aws:iam::980708112567:role/amplify-lembremeweb-dev-113716-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::980708112567:role/amplify-lembremeweb-dev-113716-authRole",
+      "Region": "us-west-2",
+      "DeploymentBucketName": "amplify-lembremeweb-dev-113716-deployment",
+      "UnauthRoleName": "amplify-lembremeweb-dev-113716-unauthRole",
+      "StackName": "amplify-lembremeweb-dev-113716",
+      "StackId": "arn:aws:cloudformation:us-west-2:980708112567:stack/amplify-lembremeweb-dev-113716/0dc62730-43f2-11ed-a5ed-063ba2ec1c09",
+      "AmplifyAppId": "d1kqacfkxvqmjc"
+    },
+    "categories": {
+      "auth": {
+        "lembremeweb0663e631": {}
+      }
+    }
+  }
+}

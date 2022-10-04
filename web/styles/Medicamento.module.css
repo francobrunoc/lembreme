@@ -1,0 +1,21 @@
+.my {
+    margin-top: 2.52vh;
+    margin-bottom: 2.52vh;
+}
+.info {
+    width: 17.5vw;
+    height: 9.97vh;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.68vh;
+    line-height: 1.99vh;
+}
+.calendar {
+    top: 60vh;
+    position: absolute;
+    border-radius: 0 9px 9px 9px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+}

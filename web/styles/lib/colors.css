@@ -1,0 +1,37 @@
+:root {
+  --clamed-orange: #ffa800;
+  --clamed-green: #00cfb4;
+  --clamed-gray: #F1F1F1;
+  --clamed-white: #ffffff;
+  --clamed-gray--light: #b2b2b2;
+  --clamed-gray--dark: #bfbfbf;
+  --clamed-gray--darker: #575756;
+}
+
+.clamed-orange__bg {
+  background-color: var(--clamed-orange);
+}
+.clamed-green__bg {
+  background-color: var(--clamed-green);
+}
+.clamed-white__bg {
+  background-color: var(--clamed-white);
+}
+.clamed-gray__bg {
+  background-color: var(--clamed-gray);
+}
+.clamed-green__color {
+  color: var(--clamed-green);
+}
+.clamed-white__color {
+  color: var(--clamed-white);
+}
+.clamed-gray__color {
+  color: var(--clamed-gray);
+}
+.clamed-gray-darker__color {
+  color: var(--clamed-gray--darker);
+}
+.clamed-gray--light__color {
+  color: var(--clamed-gray--light);
+}

@@ -1,0 +1,217 @@
+.buttonsBar {
+    margin-top: 16.16vh;
+    padding-left: 5.556vw;
+}
+.button {
+    width: 18.472vw;
+    height: 15.84vh;
+    margin-right: 5.833vw;
+}
+.notPrinted {
+    border: 3px solid #F28A48;
+    border-radius: 9px;
+}
+.numero-pedido--input {
+    width: 17.5vw;
+}
+.pane {
+    justify-content: space-between;
+    background: #FFFFFF;
+    border-radius: 9px;
+    width: 1156px;
+    display: flex;
+    flex-direction: row;
+    padding: 45px;
+}
+.my {
+    margin-top: 17px;
+    margin-bottom: 8px;
+}
+.myFirst {
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+.mt {
+    margin-top: 130px;
+}
+.footer {
+    margin-top: 50px;
+}
+.rowHorario {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.rowHorario>* {
+    margin-top: 3.9vh;
+    margin-bottom: 3.9vh;
+}
+.rowMedicamento {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.rowMedicamento>* {
+    margin-top: 5.5vh;
+    margin-bottom: 5.5vh;
+}
+
+/*ETIQUETAS MEDICAMENTO*/
+.etiquetaMedicamento {
+    padding: 10px;
+    width: 151px;
+    height: 151px;
+    background: #FFFFFF;
+    border: 0.5px solid #000000;
+    border-radius: 14px;
+}
+.etiquetaMedicamentoNomeText {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #404040;
+}
+.etiquetaMedicamentoTitleText {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 9px;
+    line-height: 11px;
+    color: #404040;
+}
+.etiquetaMedicamentoSubtitleText {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 8px;
+    line-height: 10px;
+    color: #404040;
+}
+.etiquetaMedicamentoViaBox {
+    border: 0.5px solid #808080;
+    border-radius: 4px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 12px;
+    color: #404040;
+    text-align: center;
+}
+/*ETIQUETAS HORÁRIO*/
+.etiquetaHorario {
+    padding: 25px;
+    width: 302px;
+    height: 302px;
+    background: #FFFFFF;
+    border: 0.5px solid #000000;
+    border-radius: 28px;
+}
+.etiquetaHorarioHora {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    color: #404040;
+}
+.etiquetaHorarioDia {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    color: #404040;
+}
+.etiquetaHorarioContem {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    color: #404040;
+}
+.etiquetaHorarioConteudo {
+    margin-top: 7px;
+    margin-bottom: 7px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #404040;
+}
+/*ETIQUETAS CAIXA*/
+.etiquetaCaixa {
+    width: 604.72px;
+    height: 755.91px;
+    background: #FFFFFF;
+    border: 0.5px solid #000000;
+    border-radius: 35px;
+}
+.etiquetaCaixaInfos {
+    padding-left: 30px;
+    width: 489px;
+    height: 399px;
+    left: 62px;
+    top: 190px;
+    border: 0.5px solid #808080;
+    border-radius: 11px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.etiquetaCaixaPacienteLabel {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #404040;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.etiquetaCaixaPacienteValue {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #404040;
+    margin-bottom: 30px;
+}
+.etiquetaCaixaMedicamentosLabel {
+    margin-bottom: 6px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #404040;
+}
+.etiquetaCaixaMedicamentosValue {
+    margin-bottom: 6px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #404040;
+}
+.etiquetaCaixaFaleConoscoLabel {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #404040;
+}
+.etiquetaCaixaFaleConoscoValue {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #404040;
+}
