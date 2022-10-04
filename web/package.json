@@ -10,7 +10,6 @@
     "prettier": "npm run prettier -c -w"
   },
   "dependencies": {
-    "@aws-amplify/ui-react": "^3.5.4",
     "@emotion/cache": "latest",
     "@emotion/react": "latest",
     "@emotion/server": "latest",
