@@ -2,9 +2,9 @@ import AWS from 'aws-sdk'
 
 const options = {
     apiVersion: '2012-08-10',
-    region: process.env.AWS_REGION,
-    accessKeyId: process.env.AWS_ACCESS_KEY_ID,
-    secretAccessKey: process.env.AWS_SECRET_ACCESS_KEY
+    region: process.env.AWS_SERVICE_REGION,
+    accessKeyId: process.env.AWS_SERVICE_ACCESS_KEY_ID,
+    secretAccessKey: process.env.AWS_SERVICE_SECRET_ACCESS_KEY
 }
 
 const doc = new AWS.DynamoDB.DocumentClient(options)
